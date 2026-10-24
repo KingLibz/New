@@ -1,1 +1,13 @@
-{"name":"demash-global-unified","type":"module","main":"server.js","scripts":{"start":"node server.js"},"dependencies":{"express":"^4.18.2","cors":"^2.8.5"}}
+{
+  "name": "demash-global-unified",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Demash Global Unified - demashglobal.live - no build needed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
