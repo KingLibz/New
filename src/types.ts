@@ -1,0 +1,1 @@
+export type Proposal={id:number; client:string; project:string; value:number; stage:string}

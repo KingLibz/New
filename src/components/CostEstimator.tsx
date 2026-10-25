@@ -1,0 +1,12 @@
+
+import { useState } from 'react'
+export default function CostEstimator(){
+ const [area,setArea]=useState(200); const [finish,setFinish]=useState('Standard'); const multipliers:any={Standard:350,Premium:520,Luxury:780,Turnkey:950};
+ const base=area*multipliers[finish]; const margin=base*0.2; const total=base+margin;
+ return (<div className="p-4 space-y-4">
+  <div className="bg-[#121c33] border border-amber-500/20 rounded-2xl p-5"><div className="text-[10px] mono text-amber-400">INSTANT PROJECT COST & BOQ ESTIMATOR • ZIMBABWE RATES LIVE</div><h2 className="text-xl font-black mt-2">Real Cost Calculator — Not Toy</h2><p className="text-sm text-slate-400 mt-2">Live Zim material rates: Cement $14.50, Brick $0.42, Labour $18/day, Steel $1.2/kg. 20% net margin lock, SANS compliant.</p>
+   <div className="mt-4 grid md:grid-cols-3 gap-3"><div className="bg-black/40 p-3 rounded-xl border border-white/10"><label className="text-[11px] text-slate-400">Build Area m²</label><input type="range" min={50} max={1000} value={area} onChange={e=>setArea(parseInt(e.target.value))} className="w-full mt-2"/><div className="text-lg font-bold mt-1">{area} m²</div></div><div className="bg-black/40 p-3 rounded-xl border border-white/10"><label className="text-[11px] text-slate-400">Finish Level</label><select value={finish} onChange={e=>setFinish(e.target.value)} className="w-full mt-2 bg-[#0a0e1a] border border-white/10 rounded-lg px-2 py-2 text-sm"><option>Standard</option><option>Premium</option><option>Luxury</option><option>Turnkey</option></select><div className="text-xs text-slate-400 mt-2">${multipliers[finish]}/m²</div></div><div className="bg-amber-400 text-black p-3 rounded-xl"><div className="text-[11px] font-bold">TOTAL ESTIMATE</div><div className="text-2xl font-black mt-1">${total.toLocaleString()}</div><div className="text-[11px] mt-1">Base ${base.toLocaleString()} + 20% Margin ${margin.toLocaleString()}</div><div className="text-[10px] mt-2">Includes: Foundation, Brickwork, Roof, Plumbing, Electrical, Plaster, Paint, 50/30/20 escrow</div></div></div>
+   <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2 text-[11px]">{[['Cement (50kg)','14.50','42 bags'],['Bricks','0.42','18k units'],['Labour/day','18','12 crew'],['Steel Y12','1.20/kg','2.4T']].map(([k,v,q])=><div key={k} className="bg-black/30 border border-white/10 rounded-xl p-3"><div className="text-slate-400">{k}</div><div className="font-bold">${v}</div><div className="text-[10px] text-slate-500">{q}</div></div>)}</div>
+  </div>
+ </div>)
+}

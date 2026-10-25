@@ -1,0 +1,1 @@
+export const COMPANY={name:'DEMASH CONSTRUCTION',tagline:'Civil Engineering • Turnkey Construction • Demash Global',registered:'REGISTERED PRIVATE LIMITED COMPANY • ZIMBABWE',whatsapp:'+263 78 421 9178',phone:'+263 78 421 9178',email:'info@demashglobal.com',location:'Highlands & Borrowdale Business Corridor, Harare, Zimbabwe',director:'Liberman Magaya'}

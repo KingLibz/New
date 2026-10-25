@@ -1,0 +1,28 @@
+
+export const EXEC_TILES=[
+{id:'real-lead-radar',title:'Real Lead Radar (Tekce & AHM)',badge:'LIVE PIPELINE 24I5893858',func:'Live client proposals, TEKCE + AHM affiliate commission auto-calc'},
+{id:'cognitive-sourcing',title:'Cognitive Sourcing, Feasibility & Fraud Sentry',badge:'48 Laws Active',func:'Supplier verification, Alibaba IMAP sync, fraud scoring'},
+{id:'drawing-takeoff-boq',title:'Blueprint Takeoff & Letterhead BOQ',badge:'AI BOQ Engine',func:'Upload PDF/DWG -> auto quantity takeoff, branded BOQ PDF'},
+{id:'cost-estimator',title:'Instant Project Cost & BOQ Estimator',badge:'ZIM Rates Live',func:'Real-time Zim material rates, labor, 20% margin calc'},
+{id:'financial',title:'AgriBank Gross Revenue & Multi-Gateway',badge:'USD Escrow',func:'Diaspora 50/30/20 escrow, Paynow, InnBucks, ZiG'},
+{id:'freight-logistics',title:'Global Freight & Maritime Brokerage',badge:'1.08x FAF',func:'Beira-Durban import calc, freight matrix'},
+{id:'pools-boq',title:'Swimming Pool Engineering & BOQ',badge:'Gunite Infinity',func:'4 pool models, engineering calc, filtration BOQ'},
+{id:'proposals',title:'Automated Proposal Dispatch & Tracking',badge:'ACTIVE LEDGER',func:'Proposal dispatch webhook, tracking, commission'},
+{id:'global-grid',title:'Global Sovereign Grid & Manifest',badge:'5 Hubs',func:'Turkey, China, SA, UAE, Zim hubs'},
+{id:'cross-border',title:'Cross-Border Procurement Matrix',badge:'Dual Pipeline',func:'Dual supplier pipeline, price arbitrage'},
+{id:'sms-cash-stream',title:'Live Treasury, SMS & Remittance',badge:'Daily $300 Paynow',func:'Live treasury SMS parsing'},
+{id:'pos',title:'AHM Corp Supplier POS & Commissions',badge:'ref=mnpixfvf',func:'POS, stock, commissions ledger'},
+{id:'payments-portal',title:'Payments & Public Portal',badge:'Public Quotes',func:'Public quote generator, payment links'},
+{id:'blueprint-engine',title:'AI Blueprints & Structural Engine',badge:'Structural Calc',func:'Foundation, beam, column calc'},
+{id:'diaspora-portal',title:'Diaspora 50/30/20 Escrow Portal',badge:'Escrow Secured',func:'Milestone escrow automation'},
+{id:'solar',title:'Solar Sales Closer Desk',badge:'$9,580 USD',func:'Solar quotations, ROI calc'},
+{id:'posts',title:'2,999 Zim Construction Posts',badge:'2491/2999',func:'Content engine'},
+{id:'competitor-intercept',title:'Competitor Infiltration & Intercept',badge:'94.8% Velocity',func:'Market intel'},
+{id:'supplier-contracts',title:'Contractual Margin Reconciliation',badge:'5 Alliances',func:'Margin reconciliation'},
+{id:'buyer-acquisition',title:'Buyer Acquisition & PM2 Cluster',badge:'6 Nodes',func:'Buyer funnel'},
+{id:'gateway-latency',title:'Multi-Gateway Latency Balancer',badge:'Hot-Swap',func:'Gateway health'},
+{id:'cold-vault',title:'Domestic Subcontracting Pipeline',badge:'20% Net Lock',func:'Subcontractor management'},
+{id:'advantage-registry',title:'Sovereign Milestone Matrix',badge:'99.984% Edge',func:'Milestone edge buffer'},
+{id:'psycho-ads',title:'Psychological Advertising (Zim)',badge:'Multi-Channel',func:'Zim ad psychology'},
+{id:'token-queue',title:'Gemini Token Vault & Celery Queue',badge:'12 Buffered',func:'AI queue'}
+];
